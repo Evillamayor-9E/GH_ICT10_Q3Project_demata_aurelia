@@ -1,0 +1,132 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #84a55c;
+        }
+
+        .dropdown {
+         position: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #baffc3;
+            color:#3d6212;
+            margin-left: 545px;
+            margin-top: 20px;
+            min-width: 130px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        .dropbtn {
+            background-color: #3d6212;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #673681;
+            color: #ffffff;
+            border: 10.2 px solid #d57171;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .container {
+            position: relative;
+            background-color: rgb(124, 126, 32);
+            color: white;
+            padding: 50px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+        }
+
+        .navbar-investigate {
+            overflow: hidden;
+            padding: 10px 10px;
+            align-items: center;
+            position: relative;
+            color: rgb(34, 32, 80);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+
+        }
+
+        .material-selector {
+            margin-left: 500px;
+            margin-right: 100px;
+        }
+       
+        .container-navbar {
+            position: relative;
+            background-color: rgb(124, 122, 207);
+            color: rgb(178, 240, 139);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+        }
+
+        .container-navbar {
+        background-color: #3d6212;
+        color: #ffffff;
+        overflow: hidden;
+        }
+
+        .container-navbar a {
+        float: left;
+        display: block;
+        background-color: #3d6212;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .container-navbar a:hover {
+        background-color: #3d6212;
+        color: whitesmoke;
+        }
+
+        .container-navbar a.active {
+        background-color: #A7C6DA;
+        color: rgb(18, 14, 14);
+        }
+
+        .topnav .icon {
+        display: none;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+        input[type="button"] {
+            padding: 8px 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
